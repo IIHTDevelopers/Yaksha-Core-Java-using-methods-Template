@@ -1,0 +1,85 @@
+Creating and Using Methods in Java
+Project Abstract
+The purpose of this project is to demonstrate the creation and usage of methods in Java. A method in Java is a block of code designed to perform a particular task. The tasks in this project focus on developing and utilizing different types of methods, such as methods with no parameters, methods that accept parameters, methods that return values, methods with variable arguments, and methods that invoke other methods.
+
+The project will help learners understand:
+
+How to define methods in Java.
+How to pass arguments to methods.
+How to return values from methods.
+How to use variable arguments in methods.
+How to call one method from another, fostering code reusability.
+By completing this project, participants will have a deeper understanding of how methods can enhance code modularity, readability, and maintainability.
+
+Tasks Overview
+Task 1: Calling a Method with No Arguments
+Objective:
+Create a method that performs a simple task without accepting any parameters and call it in the main program.
+
+Detailed Description:
+In this task, you are required to define a method called printMessage() that does not take any arguments and returns no value (i.e., the return type should be void). This method should simply print a greeting message or any other simple text to the console.
+
+Steps:
+Define a method named printMessage.
+The method should print the message "Hello, welcome to method examples!" when called.
+In the main method, call printMessage() to display the message.
+
+
+Task 2: Calling a Method with Arguments
+Objective:
+Create a method that accepts two integers, adds them, and returns the sum.
+
+Detailed Description:
+In this task, you are required to define a method called addNumbers() that accepts two integer parameters, adds them together, and returns the sum as an integer. The method will be invoked from the main method, where you will pass two numbers to the method, capture the return value, and print it.
+
+Steps:
+Define a method named addNumbers that accepts two integer parameters.
+Return the sum of the two integers.
+In the main method, call addNumbers() with two integers (e.g., 5 and 10).
+Capture the returned sum and print it.
+
+
+Task 3: Calling a Method that Returns a Value
+Objective:
+Create a method that takes two integers as input and returns the larger of the two.
+
+Detailed Description:
+In this task, you will define a method called findMax() that compares two integers and returns the larger one. The method will be invoked from the main method, where two integer values will be passed. The returned maximum value will be printed to the console.
+
+Steps:
+Define a method findMax that accepts two integer parameters.
+The method should return the maximum of the two integers using a conditional (e.g., if-else or a ternary operator).
+In the main method, call findMax() with two integers (e.g., 15 and 20).
+Capture the returned value and print it.
+
+
+Task 4: Calling a Method with Variable Arguments
+Objective:
+Create a method that can accept a variable number of integer arguments and return their sum.
+
+Detailed Description:
+This task involves defining a method called calculateSum() that accepts a variable number of integers (using varargs) and returns their total sum. The method will be invoked from the main method with multiple numbers passed as arguments. The returned sum will be printed.
+
+Steps:
+Define a method calculateSum that accepts a variable number of integers as parameters (use int... for varargs).
+Iterate over the array of integers and compute the sum.
+Return the computed sum.
+In the main method, call calculateSum() with a set of numbers (e.g., 1, 2, 3, 4, 5).
+Capture the returned sum and print it.
+
+
+Task 5: Calling a Method from Another Method
+Objective:
+Create a method that calls other methods and performs multiple tasks in sequence.
+
+Detailed Description:
+In this task, you will define a method called printMessageAndSum() that combines the functionality of calling other methods. It will first call the printMessage() method to print a message and then call the addNumbers() method to calculate and print the sum of two integers.
+
+Steps:
+Define a method printMessageAndSum that accepts two integer parameters.
+Inside this method, first call the printMessage() method.
+Call the addNumbers() method to compute the sum of the integers.
+Print the sum and the message together in the printMessageAndSum() method.
+In the main method, call printMessageAndSum() with two integer values.
+
+
